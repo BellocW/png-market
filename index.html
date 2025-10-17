@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PNG Local Market</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>PNG Local Market</h1>
+</header>
+
+<main>
+    <section class="add-product">
+        <h2>Sell Your Product</h2>
+        <input type="text" id="name" placeholder="Product Name" required>
+        <input type="number" id="price" placeholder="Price (PGK)" required>
+        <input type="text" id="description" placeholder="Description" required>
+        <input type="text" id="image" placeholder="Image URL (optional)">
+        <button id="addProduct">Add Product</button>
+    </section>
+
+    <section class="products">
+        <h2>Available Products</h2>
+        <div id="productList" class="product-list"></div>
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
